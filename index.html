@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>StadiumAmp – Game-Day Audio for Baseball, Softball, and Beyond</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="StadiumAmp is a game-day audio engine starting with youth baseball and softball — walk-up songs, inning-break music, and victory anthems organized by roster and ready to fire with a single tap. More sports coming soon."
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-50">
+  <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <!-- Placeholder logo circle – replace with your SVG/logo -->
+        <div class="h-8 w-8 rounded-full bg-emerald-400/80"></div>
+        <span class="text-xl font-semibold tracking-tight">StadiumAmp</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a href="#features" class="hover:text-emerald-300">Features</a>
+        <a href="#how-it-works" class="hover:text-emerald-300">How It Works</a>
+        <a href="#sports" class="hover:text-emerald-300">Sports</a>
+        <a href="#pricing" class="hover:text-emerald-300">Pricing</a>
+        <a href="#faq" class="hover:text-emerald-300">FAQ</a>
+        <a
+          href="https://stadiumapp.app"
+          class="inline-flex items-center rounded-full border border-emerald-400/70 bg-emerald-400/10 px-4 py-1.5 text-sm font-semibold text-emerald-200 hover:bg-emerald-400 hover:text-slate-950 transition"
+        >
+          Launch App
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="border-b border-slate-800 bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-semibold tracking-tight mb-4">
+            Turn game days into <span class="text-emerald-400">big-league moments.</span>
+          </h1>
+          <p class="text-slate-300 text-base md:text-lg mb-4">
+            StadiumAmp is a game-day audio engine starting with youth baseball and softball.
+            Walk-up songs, inning-break music, and victory anthems—organized by roster and ready
+            to fire with a single tap.
+          </p>
+          <p class="text-sm text-emerald-200 mb-6">
+            Built for multi-sport game days. Baseball & softball first. More sports coming soon.
+          </p>
+          <div class="flex flex-wrap gap-3 mb-4">
+            <a
+              href="https://stadiumapp.app"
+              class="inline-flex items-center justify-center rounded-full bg-emerald-400 px-6 py-2.5 text-sm md:text-base font-semibold text-slate-950 hover:bg-emerald-300 transition"
+            >
+              Launch StadiumAmp App
+            </a>
+            <a
+              href="#sports"
+              class="inline-flex items-center justify-center rounded-full border border-slate-600 px-6 py-2.5 text-sm md:text-base font-semibold text-slate-100 hover:border-emerald-400 hover:text-emerald-200 transition"
+            >
+              Get notified for your sport
+            </a>
+          </div>
+          <ul class="text-xs md:text-sm text-slate-400 space-y-1">
+            <li>🔊 Built for coaches, not DJs</li>
+            <li>⚾ Optimized for youth baseball & softball today</li>
+            <li>🏈🏀⚽ Designed to expand across sports</li>
+            <li>📱 Runs right from your phone or tablet</li>
+            <li>✅ Pre-game checklist so nothing gets missed</li>
+          </ul>
+        </div>
+
+        <div class="relative">
+          <div class="absolute -inset-4 bg-emerald-500/10 blur-3xl rounded-3xl"></div>
+          <div class="relative rounded-3xl border border-slate-800 bg-slate-900/80 p-4 shadow-xl">
+            <!-- Fake app preview card -->
+            <div class="flex items-center justify-between mb-4">
+              <div>
+                <p class="text-xs uppercase tracking-[0.18em] text-emerald-300/80">Game Mode</p>
+                <p class="text-sm text-slate-300">Bronx Bombers @ 5:30 PM</p>
+              </div>
+              <span class="rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-medium text-emerald-300">
+                Pre-game checklist
+              </span>
+            </div>
+            <div class="space-y-2 text-xs text-slate-200">
+              <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
+                <span>Roster & batting order set</span>
+                <span class="text-emerald-400 text-xs font-semibold">Ready</span>
+              </div>
+              <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
+                <span>Walk-up songs assigned</span>
+                <span class="text-emerald-400 text-xs font-semibold">Ready</span>
+              </div>
+              <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
+                <span>Inning-break music scheduled</span>
+                <span class="text-emerald-400 text-xs font-semibold">Ready</span>
+              </div>
+              <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
+                <span>Device & speakers tested</span>
+                <span class="text-amber-300 text-xs font-semibold">Check</span>
+              </div>
+            </div>
+            <div class="mt-4 flex justify-end">
+              <button
+                class="inline-flex items-center rounded-full bg-emerald-400 px-4 py-1.5 text-xs font-semibold text-slate-950 hover:bg-emerald-300 transition"
+              >
+                Start Game
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What is StadiumAmp -->
+    <section id="features" class="border-b border-slate-800 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-3">
+          The easiest way to run walk-up music for your team.
+        </h2>
+        <p class="text-slate-300 max-w-2xl mb-8">
+          Playlists weren’t built for dugouts. StadiumAmp turns game-day audio into a simple,
+          tap-to-play experience that’s built around your roster, batting order, and game flow.
+          It starts with baseball and softball, and the same engine will power more sports next.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5">
+            <h3 class="text-base font-semibold mb-2">Roster-based walk-ups</h3>
+            <p class="text-sm text-slate-300">
+              Assign each player a walk-up song once. On game day, just tap the next batter—StadiumAmp
+              handles the cue.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5">
+            <h3 class="text-base font-semibold mb-2">Inning-break & warm-up music</h3>
+            <p class="text-sm text-slate-300">
+              Keep the energy high between innings and before first pitch with pre-scheduled music blocks.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5">
+            <h3 class="text-base font-semibold mb-2">Game-day lock & safety</h3>
+            <p class="text-sm text-slate-300">
+              Once the game starts, you’re in Game Mode—no accidental notifications, no scrolling through
+              other apps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core features -->
+    <section class="border-b border-slate-800 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-3">
+          Game-day audio, fully under control.
+        </h2>
+        <p class="text-slate-300 max-w-2xl mb-8">
+          StadiumAmp is purpose-built for youth game days. Everything is tuned for real coaches on real fields,
+          starting with baseball and softball and evolving to support the sports your program plays.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
+            <h3 class="text-base font-semibold">Walk-up songs for every player</h3>
+            <p class="text-sm text-slate-300">
+              Upload MP3s or add YouTube tracks (where allowed). Customize start times so the hype hits exactly
+              when players step to the plate.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
+            <h3 class="text-base font-semibold">Multi-team management</h3>
+            <p class="text-sm text-slate-300">
+              Run multiple teams or siblings in different divisions from one account. Each team keeps its own
+              roster, songs, and game sessions.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
+            <h3 class="text-base font-semibold">Pre-game checklist</h3>
+            <p class="text-sm text-slate-300">
+              Verify rosters, walk-ups, inning-break music, and device setup before first pitch so you can relax
+              and coach.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
+            <h3 class="text-base font-semibold">
+              Victory songs
+              <span class="ml-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[0.65rem] font-semibold text-emerald-300 align-middle">Pro</span>
+            </h3>
+            <p class="text-sm text-slate-300">
+              Celebrate wins with team-specific victory tracks that trigger right at game end.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
+            <h3 class="text-base font-semibold">Offline-friendly PWA</h3>
+            <p class="text-sm text-slate-300">
+              StadiumAmp runs as a Progressive Web App, so you’re not stuck if ballpark Wi-Fi or cell signal drops.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
+            <h3 class="text-base font-semibold">Coach-first design</h3>
+            <p class="text-sm text-slate-300">
+              Large tap targets, clear status banners, and a clean game view make it usable one-handed from the dugout.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how-it-works" class="border-b border-slate-800 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-3">
+          From signup to first pitch in four steps.
+        </h2>
+        <p class="text-slate-300 max-w-2xl mb-8">
+          StadiumAmp is designed so any coach or team parent can be “the DJ” with almost no learning curve.
+          Baseball and softball are live today, with the same flow extending to future sports.
+        </p>
+
+        <ol class="grid md:grid-cols-4 gap-4 text-sm text-slate-200">
+          <li class="rounded-2xl border border-slate-800 bg-slate-900 p-4">
+            <p class="text-xs font-semibold text-slate-400 mb-1">Step 1</p>
+            <p class="font-semibold mb-1">Create your team</p>
+            <p class="text-slate-300">Add your team name, season, and basic details.</p>
+          </li>
+          <li class="rounded-2xl border border-slate-800 bg-slate-900 p-4">
+            <p class="text-xs font-semibold text-slate-400 mb-1">Step 2</p>
+            <p class="font-semibold mb-1">Add your players</p>
+            <p class="text-slate-300">Build your roster, including jersey numbers and positions.</p>
+          </li>
+          <li class="rounded-2xl border border-slate-800 bg-slate-900 p-4">
+            <p class="text-xs font-semibold text-slate-400 mb-1">Step 3</p>
+            <p class="font-semibold mb-1">Assign songs</p>
+            <p class="text-slate-300">
+              Upload audio or add tracks, adjust start times, and test them in the app.
+            </p>
+          </li>
+          <li class="rounded-2xl border border-slate-800 bg-slate-900 p-4">
+            <p class="text-xs font-semibold text-slate-400 mb-1">Step 4</p>
+            <p class="font-semibold mb-1">Hit Game Mode</p>
+            <p class="text-slate-300">
+              Run the pre-game checklist, then tap through the lineup as players come to bat.
+            </p>
+          </li>
+        </ol>
+
+        <div class="mt-8">
+          <a
+            href="https://stadiumapp.app"
+            class="inline-flex items-center rounded-full bg-emerald-400 px-6 py-2.5 text-sm md:text-base font-semibold text-slate-950 hover:bg-emerald-300 transition"
+          >
+            Launch StadiumAmp App
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sports & Get Notified form -->
+    <section id="sports" class="border-b border-slate-800 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-12 md:py-16 grid md:grid-cols-[3fr,2fr] gap-10 items-start">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-3">
+            Built for multi-sport game days.
+          </h2>
+          <p class="text-slate-300 max-w-2xl mb-6">
+            StadiumAmp is designed as a universal game-day audio platform. Baseball and softball are
+            our first-class experiences today. Next up, we’re expanding the same engine to more sports
+            and event formats.
+          </p>
+          <div class="grid sm:grid-cols-2 gap-4 text-sm">
+            <div class="rounded-2xl border border-slate-800 bg-slate-900 p-4">
+              <p class="text-xs font-semibold text-emerald-300 mb-1">Available now</p>
+              <ul class="space-y-1 text-slate-200">
+                <li>⚾ Baseball</li>
+                <li>🥎 Softball</li>
+              </ul>
+            </div>
+            <div class="rounded-2xl border border-slate-800 bg-slate-900 p-4">
+              <p class="text-xs font-semibold text-slate-400 mb-1">In active planning</p>
+              <ul class="space-y-1 text-slate-200">
+                <li>🏈 Football</li>
+                <li>🏀 Basketball</li>
+                <li>⚽ Soccer</li>
+                <li>🏐 Volleyball</li>
+                <li>🥍 Lacrosse</li>
+                <li>🎤 Cheer & Dance</li>
+              </ul>
+            </div>
+          </div>
+          <p class="text-xs text-slate-500 mt-4">
+            Coaches won’t need a new app — your StadiumAmp account will support every sport as we roll them out.
+          </p>
+        </div>
+
+        <!-- Simple "Get notified" form -->
+        <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5">
+          <h3 class="text-lg font-semibold mb-2">Get notified when your sport drops.</h3>
+          <p class="text-sm text-slate-300 mb-4">
+            Tell us who you are and what you coach. We’ll email you when StadiumAmp is ready for your sport,
+            and occasionally share roadmap updates—no spam.
+          </p>
+          <form class="space-y-3" action="#" method="post">
+            <div>
+              <label for="name" class="block text-xs font-medium text-slate-300 mb-1">
+                Name <span class="text-slate-500">(optional)</span>
+              </label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                class="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-50 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-400/80 focus:border-emerald-400/80"
+                placeholder="Coach Taylor"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-xs font-medium text-slate-300 mb-1">
+                Email
+              </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                class="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-50 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-400/80 focus:border-emerald-400/80"
+                placeholder="you@example.com"
+              />
+            </div>
+            <div>
+              <label for="sport" class="block text-xs font-medium text-slate-300 mb-1">
+                Primary sport
+              </label>
+              <select
+                id="sport"
+                name="sport"
+                class="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-50 focus:outline-none focus:ring-2 focus:ring-emerald-400/80 focus:border-emerald-400/80"
+              >
+                <option value="">Select a sport</option>
+                <option>Baseball</option>
+                <option>Softball</option>
+                <option>Football</option>
+                <option>Basketball</option>
+                <option>Soccer</option>
+                <option>Volleyball</option>
+                <option>Lacrosse</option>
+                <option>Cheer &amp; Dance</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="message" class="block text-xs font-medium text-slate-300 mb-1">
+                Anything we should know? <span class="text-slate-500">(optional)</span>
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="3"
+                class="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-50 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-400/80 focus:border-emerald-400/80"
+                placeholder="Number of teams, age groups, or fields you manage…"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full inline-flex justify-center items-center rounded-full bg-emerald-400 px-4 py-2.5 text-sm font-semibold text-slate-950 hover:bg-emerald-300 transition"
+            >
+              Notify me when it’s live
+            </button>
+            <p class="text-[0.65rem] text-slate-500">
+              By submitting, you agree to be contacted about StadiumAmp updates. You can opt out anytime.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing teaser -->
+    <section id="pricing" class="border-b border-slate-800 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-3">
+          Start free. Upgrade when you’re ready.
+        </h2>
+        <p class="text-slate-300 max-w-2xl mb-8">
+          StadiumAmp is built for real teams with real budgets. Start with the free community tier for baseball
+          and softball, and unlock advanced features when it makes sense.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6 text-sm">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 flex flex-col">
+            <h3 class="text-base font-semibold mb-1">Community</h3>
+            <p class="text-slate-400 mb-4">Great for single teams getting started.</p>
+            <ul class="space-y-1 text-slate-300 mb-4">
+              <li>• Walk-up songs per player</li>
+              <li>• Basic Game Mode</li>
+              <li>• Pre-game checklist</li>
+            </ul>
+            <p class="mt-auto text-xs text-slate-500">Free tier.</p>
+          </div>
+
+          <div class="rounded-2xl border border-emerald-500 bg-slate-900 p-5 flex flex-col relative">
+            <span class="absolute -top-3 right-4 rounded-full bg-emerald-500 px-3 py-0.5 text-[0.65rem] font-semibold text-slate-950">
+              Most popular
+            </span>
+            <h3 class="text-base font-semibold mb-1">Pro</h3>
+            <p class="text-slate-400 mb-4">
+              For coaches who want a fully dialed-in game-day experience.
+            </p>
+            <ul class="space-y-1 text-slate-300 mb-4">
+              <li>• Everything in Community</li>
+              <li>• Victory songs & advanced options</li>
+              <li>• Enhanced pre-game validation</li>
+              <li>• Priority access to new features</li>
+            </ul>
+            <p class="mt-auto text-xs text-slate-500">
+              Early adopters keep inaugural-year pricing for life.
+            </p>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 flex flex-col">
+            <h3 class="text-base font-semibold mb-1">Pro Plus</h3>
+            <p class="text-slate-400 mb-4">
+              Custom setups for leagues, schools, and tournaments.
+            </p>
+            <ul class="space-y-1 text-slate-300 mb-4">
+              <li>• Multi-field audio templates</li>
+              <li>• Standardized experience across teams</li>
+              <li>• Premium support</li>
+            </ul>
+            <p class="mt-auto text-xs text-slate-500">
+              League & school pricing available by request.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="border-b border-slate-800 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-12 md:py-16">
+        <h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-3">
+          Frequently asked questions.
+        </h2>
+
+        <div class="space-y-6 text-sm text-slate-200">
+          <div>
+            <h3 class="font-semibold mb-1">
+              Does StadiumAmp replace scorekeeping apps like GameChanger?
+            </h3>
+            <p class="text-slate-300">
+              No. StadiumAmp focuses solely on game-day audio and walk-up music. You can keep using your existing
+              scorekeeping app alongside it.
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-1">What devices does it work on?</h3>
+            <p class="text-slate-300">
+              Any modern browser on phone, tablet, or laptop. For best results, use a recent iOS or Android device
+              with a stable Bluetooth or AUX connection to your speakers.
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-1">Do I need Wi-Fi at the field?</h3>
+            <p class="text-slate-300">
+              StadiumAmp is built as a Progressive Web App and can retain key data offline. We still recommend
+              testing your setup before game day.
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-1">Can I use songs from Spotify or Apple Music?</h3>
+            <p class="text-slate-300">
+              StadiumAmp supports uploaded audio files and YouTube where allowed. Streaming service integrations may
+              not be available due to licensing and API constraints.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-950 py-8">
+    <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <p>© <span id="year"></span> StadiumAmp. All rights reserved.</p>
+      <div class="flex items-center gap-4">
+        <a href="https://stadiumapp.app" class="hover:text-emerald-300">Launch App</a>
+        <!-- Add contact, privacy, etc. when ready -->
+      </div>
+    </div>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
