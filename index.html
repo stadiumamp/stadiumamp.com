@@ -8,7 +8,18 @@
     name="description"
     content="StadiumAmp is a game-day audio engine starting with youth baseball and softball — walk-up songs, inning-break music, and victory anthems organized by roster and ready to fire with a single tap. More sports coming soon."
   />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          stadiumGreen: '#16a249'
+        }
+      }
+    }
+  }
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-950 text-slate-50">
 <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur">
@@ -25,14 +36,14 @@
 
     <!-- Desktop nav -->
     <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
-      <a href="#features" class="hover:text-emerald-300">Features</a>
-      <a href="#how-it-works" class="hover:text-emerald-300">How It Works</a>
-      <a href="#sports" class="hover:text-emerald-300">Sports</a>
-      <a href="#pricing" class="hover:text-emerald-300">Pricing</a>
-      <a href="#faq" class="hover:text-emerald-300">FAQ</a>
+      <a href="#features" class="hover:text-stadiumGreen">Features</a>
+      <a href="#how-it-works" class="hover:text-stadiumGreen">How It Works</a>
+      <a href="#sports" class="hover:text-stadiumGreen">Sports</a>
+      <a href="#pricing" class="hover:text-stadiumGreen">Pricing</a>
+      <a href="#faq" class="hover:text-stadiumGreen">FAQ</a>
       <a
         href="https://stadiumamp.app"
-        class="inline-flex items-center rounded-full border border-emerald-400/70 bg-emerald-400/10 px-4 py-1.5 text-sm font-semibold text-emerald-200 hover:bg-emerald-400 hover:text-slate-950 transition"
+        class="inline-flex items-center rounded-full border border-stadiumGreen/70 bg-stadiumGreen/10 px-4 py-1.5 text-sm font-semibold text-stadiumGreen hover:bg-stadiumGreen hover:text-slate-950 transition"
       >
         Launch App
       </a>
@@ -47,26 +58,26 @@
       <div class="mx-auto max-w-6xl px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 class="text-4xl md:text-5xl font-semibold tracking-tight mb-4">
-            Turn game days into <span class="text-emerald-400">big-league moments.</span>
+            Turn game days into <span class="text-stadiumGreen">big-league moments.</span>
           </h1>
           <p class="text-slate-300 text-base md:text-lg mb-4">
             StadiumAmp is a game-day audio engine starting with youth baseball and softball.
             Walk-up songs, inning-break music, and victory anthems—organized by roster and ready
             to fire with a single tap.
           </p>
-          <p class="text-sm text-emerald-200 mb-6">
+          <p class="text-sm text-stadiumGreen mb-6">
             Built for multi-sport game days. Baseball & softball first. More sports coming soon.
           </p>
           <div class="flex flex-wrap gap-3 mb-4">
             <a
               href="https://www.stadiumamp.app"
-              class="inline-flex items-center justify-center rounded-full bg-emerald-400 px-6 py-2.5 text-sm md:text-base font-semibold text-slate-950 hover:bg-emerald-300 transition"
+              class="inline-flex items-center justify-center rounded-full bg-stadiumGreen px-6 py-2.5 text-sm md:text-base font-semibold text-slate-950 hover:bg-stadiumGreen transition"
             >
               Launch StadiumAmp App
             </a>
             <a
               href="#sports"
-              class="inline-flex items-center justify-center rounded-full border border-slate-600 px-6 py-2.5 text-sm md:text-base font-semibold text-slate-100 hover:border-emerald-400 hover:text-emerald-200 transition"
+              class="inline-flex items-center justify-center rounded-full border border-slate-600 px-6 py-2.5 text-sm md:text-base font-semibold text-slate-100 hover:border-stadiumGreen hover:text-stadiumGreen transition"
             >
               Get notified for your sport
             </a>
@@ -86,25 +97,25 @@
             <!-- Fake app preview card -->
             <div class="flex items-center justify-between mb-4">
               <div>
-                <p class="text-xs uppercase tracking-[0.18em] text-emerald-300/80">Game Mode</p>
+                <p class="text-xs uppercase tracking-[0.18em] text-stadiumGreen/80">Game Mode</p>
                 <p class="text-sm text-slate-300">Bronx Bombers @ 5:30 PM</p>
               </div>
-              <span class="rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-medium text-emerald-300">
+              <span class="rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-medium text-stadiumGreen">
                 Pre-game checklist
               </span>
             </div>
             <div class="space-y-2 text-xs text-slate-200">
               <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
                 <span>Roster & batting order set</span>
-                <span class="text-emerald-400 text-xs font-semibold">Ready</span>
+                <span class="text-stadiumGreen text-xs font-semibold">Ready</span>
               </div>
               <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
                 <span>Walk-up songs assigned</span>
-                <span class="text-emerald-400 text-xs font-semibold">Ready</span>
+                <span class="text-stadiumGreen text-xs font-semibold">Ready</span>
               </div>
               <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
                 <span>Inning-break music scheduled</span>
-                <span class="text-emerald-400 text-xs font-semibold">Ready</span>
+                <span class="text-stadiumGreen text-xs font-semibold">Ready</span>
               </div>
               <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
                 <span>Device & speakers tested</span>
@@ -113,7 +124,7 @@
             </div>
             <div class="mt-4 flex justify-end">
               <button
-                class="inline-flex items-center rounded-full bg-emerald-400 px-4 py-1.5 text-xs font-semibold text-slate-950 hover:bg-emerald-300 transition"
+                class="inline-flex items-center rounded-full bg-stadiumGreen px-4 py-1.5 text-xs font-semibold text-slate-950 hover:bg-stadiumGreen transition"
               >
                 Start Game
               </button>
@@ -196,7 +207,7 @@
           <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
             <h3 class="text-base font-semibold">
               Victory songs
-              <span class="ml-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[0.65rem] font-semibold text-emerald-300 align-middle">Pro</span>
+              <span class="ml-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[0.65rem] font-semibold text-stadiumGreen align-middle">Pro</span>
             </h3>
             <p class="text-sm text-slate-300">
               Celebrate wins with team-specific victory tracks that trigger right at game end.
@@ -259,7 +270,7 @@
         <div class="mt-8">
           <a
             href="https://www.stadiumamp.app"
-            class="inline-flex items-center rounded-full bg-emerald-400 px-6 py-2.5 text-sm md:text-base font-semibold text-slate-950 hover:bg-emerald-300 transition"
+            class="inline-flex items-center rounded-full bg-stadiumGreen px-6 py-2.5 text-sm md:text-base font-semibold text-slate-950 hover:bg-stadiumGreen transition"
           >
             Launch StadiumAmp App
           </a>
@@ -281,7 +292,7 @@
           </p>
           <div class="grid sm:grid-cols-2 gap-4 text-sm">
             <div class="rounded-2xl border border-slate-800 bg-slate-900 p-4">
-              <p class="text-xs font-semibold text-emerald-300 mb-1">Available now</p>
+              <p class="text-xs font-semibold text-stadiumGreen mb-1">Available now</p>
               <ul class="space-y-1 text-slate-200">
                 <li>⚾ Baseball</li>
                 <li>🥎 Softball</li>
@@ -419,7 +430,7 @@
     <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
       <p>© <span id="year"></span> StadiumAmp. All rights reserved.</p>
       <div class="flex items-center gap-4">
-        <a href="https://www.stadiumamp.app" class="hover:text-emerald-300">Launch App</a>
+        <a href="https://www.stadiumamp.app" class="hover:text-stadiumGreen">Launch App</a>
         <!-- Add contact, privacy, etc. when ready -->
       </div>
     </div>
