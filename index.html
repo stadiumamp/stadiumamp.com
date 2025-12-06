@@ -8,49 +8,51 @@
     name="description"
     content="StadiumAmp is a game-day audio engine starting with youth baseball and softball — walk-up songs, inning-break music, and victory anthems organized by roster and ready to fire with a single tap. More sports coming soon."
   />
+
+  <!-- Tailwind config + CDN -->
   <script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          stadiumGreen: '#16a249'
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            stadiumGreen: '#16a249'
+          }
         }
       }
     }
-  }
-</script>
-<script src="https://cdn.tailwindcss.com"></script>
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-950 text-slate-50">
-<header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur">
-  <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-    <!-- Logo -->
-    <a href="#top" class="flex items-center gap-2 shrink-0">
-      <img
-        src="StadiumAmpLogoRev2.png"
-        alt="StadiumAmp logo"
-        class="max-h-14 w-auto block"
-        style="max-width: 220px;"
-      />
-    </a>
-
-    <!-- Desktop nav -->
-    <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
-      <a href="#features" class="hover:text-stadiumGreen">Features</a>
-      <a href="#how-it-works" class="hover:text-stadiumGreen">How It Works</a>
-      <a href="#sports" class="hover:text-stadiumGreen">Sports</a>
-      <a href="#pricing" class="hover:text-stadiumGreen">Pricing</a>
-      <a href="#faq" class="hover:text-stadiumGreen">FAQ</a>
-      <a
-        href="https://stadiumamp.app"
-        class="inline-flex items-center rounded-full border border-stadiumGreen/70 bg-stadiumGreen/10 px-4 py-1.5 text-sm font-semibold text-stadiumGreen hover:bg-stadiumGreen hover:text-slate-950 transition"
-      >
-        Launch App
+<body class="bg-slate-950 text-slate-50" id="top">
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#top" class="flex items-center gap-2 shrink-0">
+        <img
+          src="StadiumAmpLogoRev2.png"
+          alt="StadiumAmp logo"
+          class="max-h-14 w-auto block"
+          style="max-width: 220px;"
+        />
       </a>
-    </nav>
-  </div>
-</header>
 
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a href="#features" class="hover:text-stadiumGreen">Features</a>
+        <a href="#how-it-works" class="hover:text-stadiumGreen">How It Works</a>
+        <a href="#sports" class="hover:text-stadiumGreen">Sports</a>
+        <a href="#pricing" class="hover:text-stadiumGreen">Pricing</a>
+        <a href="#faq" class="hover:text-stadiumGreen">FAQ</a>
+        <a
+          href="https://www.stadiumamp.app"
+          class="inline-flex items-center rounded-full border border-[rgba(22,162,73,0.7)] bg-[rgba(22,162,73,0.10)] px-4 py-1.5 text-sm font-semibold text-stadiumGreen hover:bg-stadiumGreen hover:text-slate-950 transition"
+        >
+          Launch App
+        </a>
+      </nav>
+    </div>
+  </header>
 
   <main>
     <!-- Hero -->
@@ -66,7 +68,7 @@
             to fire with a single tap.
           </p>
           <p class="text-sm text-stadiumGreen mb-6">
-            Built for multi-sport game days. Baseball & softball first. More sports coming soon.
+            Built for multi-sport game days. Baseball &amp; softball first. More sports coming soon.
           </p>
           <div class="flex flex-wrap gap-3 mb-4">
             <a
@@ -84,7 +86,7 @@
           </div>
           <ul class="text-xs md:text-sm text-slate-400 space-y-1">
             <li>🔊 Built for coaches, not DJs</li>
-            <li>⚾ Optimized for youth baseball & softball today</li>
+            <li>⚾ Optimized for youth baseball &amp; softball today</li>
             <li>🏈🏀⚽ Designed to expand across sports</li>
             <li>📱 Runs right from your phone or tablet</li>
             <li>✅ Pre-game checklist so nothing gets missed</li>
@@ -97,16 +99,16 @@
             <!-- Fake app preview card -->
             <div class="flex items-center justify-between mb-4">
               <div>
-                <p class="text-xs uppercase tracking-[0.18em] text-stadiumGreen/80">Game Mode</p>
+                <p class="text-xs uppercase tracking-[0.18em] text-stadiumGreen">Game Mode</p>
                 <p class="text-sm text-slate-300">Bronx Bombers @ 5:30 PM</p>
               </div>
-              <span class="rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-medium text-stadiumGreen">
+              <span class="rounded-full bg-[rgba(22,162,73,0.15)] px-3 py-1 text-xs font-medium text-stadiumGreen">
                 Pre-game checklist
               </span>
             </div>
             <div class="space-y-2 text-xs text-slate-200">
               <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
-                <span>Roster & batting order set</span>
+                <span>Roster &amp; batting order set</span>
                 <span class="text-stadiumGreen text-xs font-semibold">Ready</span>
               </div>
               <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
@@ -118,7 +120,7 @@
                 <span class="text-stadiumGreen text-xs font-semibold">Ready</span>
               </div>
               <div class="flex items-center justify-between rounded-xl border border-slate-800 bg-slate-900 px-3 py-2">
-                <span>Device & speakers tested</span>
+                <span>Device &amp; speakers tested</span>
                 <span class="text-amber-300 text-xs font-semibold">Check</span>
               </div>
             </div>
@@ -155,13 +157,13 @@
             </p>
           </div>
           <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5">
-            <h3 class="text-base font-semibold mb-2">Inning-break & warm-up music</h3>
+            <h3 class="text-base font-semibold mb-2">Inning-break &amp; warm-up music</h3>
             <p class="text-sm text-slate-300">
               Keep the energy high between innings and before first pitch with pre-scheduled music blocks.
             </p>
           </div>
           <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5">
-            <h3 class="text-base font-semibold mb-2">Game-day lock & safety</h3>
+            <h3 class="text-base font-semibold mb-2">Game-day lock &amp; safety</h3>
             <p class="text-sm text-slate-300">
               Once the game starts, you’re in Game Mode—no accidental notifications, no scrolling through
               other apps.
@@ -207,7 +209,7 @@
           <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5 space-y-2">
             <h3 class="text-base font-semibold">
               Victory songs
-              <span class="ml-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[0.65rem] font-semibold text-stadiumGreen align-middle">Pro</span>
+              <span class="ml-1 rounded-full bg-[rgba(22,162,73,0.15)] px-2 py-0.5 text-[0.65rem] font-semibold text-stadiumGreen align-middle">Pro</span>
             </h3>
             <p class="text-sm text-slate-300">
               Celebrate wins with team-specific victory tracks that trigger right at game end.
@@ -306,7 +308,7 @@
                 <li>⚽ Soccer</li>
                 <li>🏐 Volleyball</li>
                 <li>🥍 Lacrosse</li>
-                <li>🎤 Cheer & Dance</li>
+                <li>🎤 Cheer &amp; Dance</li>
               </ul>
             </div>
           </div>
@@ -315,10 +317,30 @@
           </p>
         </div>
 
-        <!-- Simple "Get notified" form -->
+        <!-- Google Form embed -->
         <div class="rounded-2xl border border-slate-800 bg-slate-900 p-5">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdL5TeeIxRtOeSN0wJstHeTwNZRuH0Zlw0jcKoSfoaahi0J1Q/viewform?embedded=true" width="640" height="430" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>            </div>
-          </form>
+          <h3 class="text-lg font-semibold mb-2 text-slate-100">
+            Get notified when your sport drops.
+          </h3>
+          <p class="text-sm text-slate-300 mb-4">
+            Tell us who you are and what you coach. We’ll email you when StadiumAmp is ready for your sport
+            and occasionally share roadmap updates—no spam.
+          </p>
+          <div class="rounded-xl border border-slate-800 bg-slate-950 p-2">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdL5TeeIxRtOeSN0wJstHeTwNZRuH0Zlw0jcKoSfoaahi0J1Q/viewform?embedded=true"
+              width="100%"
+              height="430"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+              Loading…
+            </iframe>
+          </div>
+          <p class="mt-2 text-[0.65rem] text-slate-500">
+            Powered by Google Forms. You can opt out of updates anytime using the unsubscribe link in our emails.
+          </p>
         </div>
       </div>
     </section>
@@ -346,8 +368,8 @@
             <p class="mt-auto text-xs text-slate-500">Free tier.</p>
           </div>
 
-          <div class="rounded-2xl border border-emerald-500 bg-slate-900 p-5 flex flex-col relative">
-            <span class="absolute -top-3 right-4 rounded-full bg-emerald-500 px-3 py-0.5 text-[0.65rem] font-semibold text-slate-950">
+          <div class="rounded-2xl border border-[rgba(22,162,73,0.9)] bg-slate-900 p-5 flex flex-col relative">
+            <span class="absolute -top-3 right-4 rounded-full bg-stadiumGreen px-3 py-0.5 text-[0.65rem] font-semibold text-slate-950">
               Most popular
             </span>
             <h3 class="text-base font-semibold mb-1">Pro</h3>
@@ -356,7 +378,7 @@
             </p>
             <ul class="space-y-1 text-slate-300 mb-4">
               <li>• Everything in Community</li>
-              <li>• Victory songs & advanced options</li>
+              <li>• Victory songs &amp; advanced options</li>
               <li>• Enhanced pre-game validation</li>
               <li>• Priority access to new features</li>
             </ul>
@@ -376,7 +398,7 @@
               <li>• Premium support</li>
             </ul>
             <p class="mt-auto text-xs text-slate-500">
-              League & school pricing available by request.
+              League &amp; school pricing available by request.
             </p>
           </div>
         </div>
@@ -426,6 +448,7 @@
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="bg-slate-950 py-8">
     <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
       <p>© <span id="year"></span> StadiumAmp. All rights reserved.</p>
